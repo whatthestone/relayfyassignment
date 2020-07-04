@@ -1,0 +1,23 @@
+.btn-group {
+    font-size: .75em;
+}
+
+.btn-group button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 2px;
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #c7c7c7;
+}
